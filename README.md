@@ -27,7 +27,7 @@
       :episodeIdList="playerConfig.episodeIdList"
       :playId="playerConfig.playId"
       :extParams="playerConfig.extParams"
-      @nopermissionplay="handlenOpermissionplay"
+      @nopermissionplay="handleNopermissionplay"
       @error="handleError"
       @action="handleAction"
       @change="handleChange"

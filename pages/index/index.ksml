@@ -7,7 +7,7 @@
         playId="{{ playId }}"
         extParams="{{ extParams }}"
         showBottomSafeArea="{{ true }}"
-        bindnopermissionplay="handlenOpermissionplay"
+        bindnopermissionplay="handleNopermissionplay"
         binderror="handleError"
         bindaction="handleAction"
         bindchange="handleChange"
