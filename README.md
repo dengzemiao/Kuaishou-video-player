@@ -36,8 +36,6 @@
   </template>
 
   <script>
-  import { SMType } from '@/common/constant'
-  import { leadDetail, videoList, welfareTaskCount } from '@/api/request'
   export default {
     data() {
       return {
