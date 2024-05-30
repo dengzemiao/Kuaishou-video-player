@@ -1,0 +1,30 @@
+<!--index.ksml-->
+<view class="page-view">
+    <playlet 
+        class="ks-video-player-view"
+        playletId="{{ playletId }}"
+        episodeIdList="{{ episodeIdList }}"
+        playId="{{ playId }}"
+        extParams="{{ extParams }}"
+        showBottomSafeArea="{{ true }}"
+        bindnopermissionplay="handlenOpermissionplay"
+        binderror="handleError"
+        bindaction="handleAction"
+        bindchange="handleChange"
+    >
+    </playlet>
+    <!-- <video-player 
+        class="ks-video-player-view"
+        playletId="{{ playletId }}"
+        episodeIdList="{{ episodeIdList }}"
+        playId="{{ playId }}"
+        extParams="{{ extParams }}"
+        showBottomSafeArea="{{ false }}"
+        bindnopermissionplay="handleNopermissionplay"
+        binderror="handleError"
+        bindaction="handleAction"
+        bindchange="handleChange"
+    >
+    </video-player> -->
+    <view class="ad-view">测试悬浮层</view>
+</view>

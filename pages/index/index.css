@@ -1,0 +1,16 @@
+/**index.css**/
+.page-view {
+    position: relative;
+}
+.ad-view {
+    position: absolute;
+    width: 200px;
+    height: 500px;
+    left: 0;
+    top: 0;
+    background-color: rgba(255, 0, 0, 0.5);
+    z-index: 1000;
+}
+.ks-video-player-view {
+    z-index: 100;
+}

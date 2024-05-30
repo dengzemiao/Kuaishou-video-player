@@ -1,0 +1,13 @@
+<playlet
+    class="ks-video-player-view inner-class"
+    playletId="{{ playletId }}"
+    episodeIdList="{{ episodeIdList }}"
+    playId="{{ playId }}"
+    extParams="{{ extParams }}"
+    showBottomSafeArea="{{ showBottomSafeArea }}"
+    bindnopermissionplay="handleNopermissionplay"
+    binderror="handleError"
+    bindaction="handleAction"
+    bindchange="handleChange"
+>
+</playlet>
